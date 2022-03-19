@@ -20,10 +20,10 @@ public class Projetodolar2 {
         float fahrenheit;
         float celsius;
         
-        while(menu != 5);{
+        while(menu != 5) {
         
-        System.out.println("Sejá bem-vindo ao seu assistente de conversão"
-                + " de moeda.");
+        System.out.println("Bem-vindo ao seu assistente de conversão"
+                + " de moeda e temperatura.");
         System.out.println("No menu a seguir selecione a opção desejada.");
         System.out.println("1 - Converter Reais em Dólar.");
         System.out.println("2 - Converter Dólar em Reais.");
@@ -42,7 +42,7 @@ public class Projetodolar2 {
                                 + " deseja converter.");
                         reais = leitor.nextFloat();
                         System.out.println("Na cotação atual os R$"+ reais+""
-                                + "valem US$"+reais/dolarCotacao+".");
+                                + " valem US$" +reais/dolarCotacao+".");
                         
                         break;
                     
@@ -53,8 +53,8 @@ public class Projetodolar2 {
                         System.out.println("Digite quantos Dólares você"
                                 + " deseja converter.");
                         dolar = leitor.nextFloat();
-                        System.out.println("Na cotação atual os US$"+ dolar+""
-                                + "valem R$"+ dolar * dolarCotacao+".");
+                        System.out.println("Na cotação atual os US$"+ dolar+ ""
+                                + " valem R$"+ dolar * dolarCotacao+".");
                         
                         break;
                         
@@ -87,4 +87,3 @@ public class Projetodolar2 {
 
 
     
-
